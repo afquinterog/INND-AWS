@@ -1779,14 +1779,6 @@ body,
   margin-bottom:100px;
 }
 
-
-.notFoundLink{
-  color:#6fb454; 
-}
-.notFoundLink:hover{
-  color:#000; 
-}
-
  
 @media (min-width: 1170px) {
   .carousel-indicators {
@@ -1889,6 +1881,7 @@ body,
     min-height: 5px !important;
   }
 }
+
 
 
 

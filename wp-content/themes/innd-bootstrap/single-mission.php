@@ -9,7 +9,7 @@
 				<p class="lead text-center"  style="text-align:center"><?php echo $tag_line; ?></p>
 		</div>
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 intro-page center-p" >	
-            <p><?php the_content(); ?></p>
+			<?php the_content(); ?>
 		</div>
 	</div>
 </div>

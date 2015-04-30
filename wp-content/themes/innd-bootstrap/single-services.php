@@ -29,9 +29,10 @@
     </div>
     </div>
 
+
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
      
-        <p class="lead text-center services-text1 services-menu">
+        <p class="lead text-center services-text1">
           <?php 
            showServicesMenu( get_the_ID() );
           ?>
@@ -39,9 +40,16 @@
     </div>
 
 <div class="clearfix"></div>
+  <div class="">    
     <div class="col-lg-8 col-lg-offset-2 col-md-8-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">      
-      <p class="lead text-center services-text"><?php the_content(); ?></p>
+      <p class="lead text-center services-text">   
+      <?php //if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+     <?php the_content(); ?>
+        </p>
+        </div> 
     </div> 
+
+    <div class="clearfix"></div>
 
     <div class="container-flex" >
       <div class="row-flex no-gutter">
@@ -287,7 +295,9 @@
         </div>
     </div>
     <!-- End green bar section -->
-  
+
+
+        
     <div class="clearfix visible-md-block visible-sm-block visible-xs-block"></div>
 
     <!-- Image section -->
@@ -301,7 +311,6 @@
 
         $args      = array( 'posts_per_page' => -1,  'category' => $catid ); 
         $portfolio = get_posts( $args );
-
         foreach($portfolio as $item){
 	          $image = wp_get_attachment_url( get_post_thumbnail_id($item->ID));
 	          $name = $item->post_name;
@@ -319,7 +328,7 @@
   		}
       ?>
 
-      <a href="<?php echo site_url(); ?>/portfolio/digital-solutions/<?php echo $name; ?>"  >
+      <a href="<?php echo site_url(); ?>/portfolio/technology/<?php echo $name; ?>"  >
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 thumbnail img-responsive">  
            <img class="full-width-img container-shadow-hvr hover" src="<?php echo $image ?>" alt=""/>
         </div>

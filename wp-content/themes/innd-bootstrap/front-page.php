@@ -32,7 +32,7 @@ $section = get_query_var('section');
     <div class="row-flex no-gutter">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 "> 
           <div class="div-green-bar">
-              <p class="lead text-center green-text">inNuevo Digital delivers creative solutions for brand engagement</p>
+              <p class="lead text-center green-text">inNuevo Digital provides creative solutions for brand engagement</p>
           </div>
           
         </div>
@@ -49,67 +49,68 @@ $section = get_query_var('section');
     <div class="col-lg-8 col-lg-offset-2 col-md-8-offset-2 col-sm-8 col-sm-offset-2  intro">
       <div id="services">&nbsp;</div>
       <h3 class="text-center">what we do</h3>
-        <p class="lead text-center">We use strategy, design and technology to bring people and brands together</p>
+        <p class="lead text-center">we strive for impact and excel at delivering innovative solutions</p>
     </div>
   </div>
     
   <div class="clearfix visible-md-block visible-sm-block visible-xs-block"></div>
-
-    <!--<a href="<!-?php echo site_url(); ?>/services/interactivity/">
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 thumbnail img-responsive">  
-         <img class="full-width-img container-shadow-hvr hover" src="<!--?php echo site_url(); ?>/wp-content/uploads/interactivity.jpg" alt="">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <span class="caption"><span>interactivity</span>&nbsp;<img src="<!--?php echo site_url(); ?>/wp-content/uploads/plus2.gif" class="skinny-plus" alt="plus icon"/></span>
-          </div>        
-      </div>
-    </a>-->
-
-    <!--<a href="<!--?php echo site_url(); ?>/services/engagement/">
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 thumbnail img-responsive">  
-         <img class="full-width-img container-shadow-hvr hover" src="<!--?php echo site_url(); ?>/wp-content/uploads/engaging.jpg" alt="">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <span class="caption"><span>engagement</span>&nbsp;<img src="<!--?php echo site_url(); ?>/wp-content/uploads/plus2.gif" class="skinny-plus" alt="plus icon"/></span>
-          </div>        
-      </div>
-    </a>-->
     
-    <a href="<?php echo site_url(); ?>/services/strategy-and-content-development/">
+
+    <a href="<?php echo site_url(); ?>/services/technology/">
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 thumbnail img-responsive">  
-        <img class="container-shadow-hvr hover" src="<?php echo site_url(); ?>/wp-content/uploads/strategy.jpg" alt="">
+         <img class="container-shadow-hvr hover" src="<?php echo site_url(); ?>/wp-content/uploads/technology1.jpg" alt="">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <span class="caption"><span>strategy<!--and content development--></span>&nbsp;<img src="<?php echo site_url(); ?>/wp-content/uploads/plus2.gif" class="skinny-plus" alt="plus icon"/></span>
+              <span class="caption"><span>technology</span>&nbsp;<img src="<?php echo site_url(); ?>/wp-content/uploads/plus2.gif" class="skinny-plus" alt="plus icon"/></span>
           </div>        
       </div>
-    </a> 
+    </a>
 
-    <a href="<?php echo site_url(); ?>/services/design/">
+    <a href="<?php echo site_url(); ?>/services/interactivity/">
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 thumbnail img-responsive">  
+         <img class="full-width-img container-shadow-hvr hover" src="<?php echo site_url(); ?>/wp-content/uploads/interactivity.jpg" alt="">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <span class="caption"><span>interactivity</span>&nbsp;<img src="<?php echo site_url(); ?>/wp-content/uploads/plus2.gif" class="skinny-plus" alt="plus icon"/></span>
+          </div>        
+      </div>
+    </a>
+
+    <a href="<?php echo site_url(); ?>/services/engagement/">
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 thumbnail img-responsive">  
+         <img class="full-width-img container-shadow-hvr hover" src="<?php echo site_url(); ?>/wp-content/uploads/engaging.jpg" alt="">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <span class="caption"><span>engagement</span>&nbsp;<img src="<?php echo site_url(); ?>/wp-content/uploads/plus2.gif" class="skinny-plus" alt="plus icon"/></span>
+          </div>        
+      </div>
+    </a>
+
+    <a href="<?php echo site_url(); ?>/services/identity/"  >
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 thumbnail img-responsive">      
          <img class="full-width-img container-shadow-hvr hover" src="<?php echo site_url(); ?>/wp-content/uploads/identity.jpg" alt=""/>
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <span class="caption"><span>design</span>&nbsp;
+              <span class="caption"><span>identity</span>&nbsp;
               <img src="<?php echo site_url(); ?>/wp-content/uploads/plus2.gif" class="skinny-plus" alt="plus icon"/></span>
           </div>     
         
       </div>
-    </a>
-    
-    <a href="<?php echo site_url(); ?>/services/digital-solutions/">
+    </a>   
+
+    <a href="<?php echo site_url(); ?>/services/strategy/">
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 thumbnail img-responsive">  
-         <img class="container-shadow-hvr hover" src="<?php echo site_url(); ?>/wp-content/uploads/technology1.jpg" alt="">
+        <img class="container-shadow-hvr hover" src="<?php echo site_url(); ?>/wp-content/uploads/strategy.jpg" alt="">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <span class="caption"><span>digital solutions</span>&nbsp;<img src="<?php echo site_url(); ?>/wp-content/uploads/plus2.gif" class="skinny-plus" alt="plus icon"/></span>
+              <span class="caption"><span>strategy</span>&nbsp;<img src="<?php echo site_url(); ?>/wp-content/uploads/plus2.gif" class="skinny-plus" alt="plus icon"/></span>
           </div>        
       </div>
     </a>
 
-    <!--<a href="<!--?php echo site_url(); ?>/services/data/">
+    <a href="<?php echo site_url(); ?>/services/data/">
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 thumbnail img-responsive">  
-         <img class="full-width-img container-shadow-hvr hover" src="<!-?php echo site_url(); ?>/wp-content/uploads/data.jpg" alt="">
+         <img class="full-width-img container-shadow-hvr hover" src="<?php echo site_url(); ?>/wp-content/uploads/data.jpg" alt="">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <span class="caption"><span>data</span>&nbsp;<img src="<!--?php echo site_url(); ?>/wp-content/uploads/plus2.gif" class="skinny-plus" alt="plus icon"/></span>
+              <span class="caption"><span>data</span>&nbsp;<img src="<?php echo site_url(); ?>/wp-content/uploads/plus2.gif" class="skinny-plus" alt="plus icon"/></span>
           </div>        
       </div>
-    </a>-->
+    </a>
 
    
     

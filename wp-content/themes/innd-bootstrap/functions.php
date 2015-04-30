@@ -1,4 +1,5 @@
 <?php
+// Only on front-end pages, NOT in admin area
 if (!is_admin()) {
 
 	// Load CSS
@@ -92,7 +93,7 @@ function showServicesMenu($postId){
   $args = array(
     'posts_per_page' => '-1',
     'post_type' => 'services',
-    'orderby' => 'menu_order',
+    'orderby' => 'menuorder',
     'order' => 'ASC'    
     );
   $pagelist = new WP_Query( $args );
@@ -103,7 +104,7 @@ function showServicesMenu($postId){
     //echo $id . " " . $title;
     $pages[] += $id;
   endwhile;
-    
+
   $current = array_search($postId, $pages);
   $prevID = $pages[$current-1];
   $nextID = $pages[$current+1];
@@ -120,15 +121,19 @@ function showServicesMenu($postId){
   }
 
   $title = get_the_title( $postId );
-   echo ( $title == 'strategy and content development') ? 'strategy and content development &nbsp;<span>|</span>' : 
-                                 '<a class="active-link" href='. site_url() .'/services/strategy-and-content-development/>strategy and content development</a> <span>|</span>';
-    
-    echo ( $title == 'design') ? '&nbsp;design <span>|</span>' : 
-                                 '<a class="active-link" href='. site_url() .'/services/design/>&nbsp;design</a> <span>|</span>';
-    
-   echo ( $title == 'digital solutions') ? '&nbsp;digital solutions' : 
-                                   '<a href='. site_url() .'/services/digital-solutions/>&nbsp;digital solutions</a>';
 
+  echo ( $title == 'technology') ? 'technology <span>|</span>' : 
+                                   '<a href='. site_url() .'/services/technology/>technology</a> <span>|</span>';
+  echo ( $title == 'interactivity') ? 'interactivity <span>|</span>' : 
+                                      '<a href='. site_url() .'/services/interactivity/>interactivity</a> <span>|</span>';
+  echo ( $title == 'engagement') ?  'engagement <span>|</span>' : 
+                                    '<a href='. site_url() .'/services/engagement/>engagement</a> <span>|</span>';
+  echo ( $title == 'identity') ? 'identity <span>|</span>' : 
+                                 '<a href='. site_url() .'/services/identity/>identity</a> <span>|</span>';
+  echo ( $title == 'strategy') ? 'strategy <span>|</span>' : 
+                                 '<a href='. site_url() .'/services/strategy/>strategy</a> <span>|</span>';
+  echo ( $title == 'data') ? 'data ' : 
+                             '<a href='. site_url() .'/services/data/>data</a>';
 
   if (!empty($nextID)) {
     $nextTitle = get_the_title($nextID);
